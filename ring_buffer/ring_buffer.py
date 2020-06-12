@@ -13,8 +13,8 @@ class RingBuffer:
         
     def get(self):
         storage = self.storage
-        new_item = [x for x in storage if x is not None]
-        return new_item
+        item = [x for x in storage if x is not None]
+        return item
 '''
     
     class RingBuffer:
